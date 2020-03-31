@@ -1,0 +1,9 @@
+.topbar {
+    margin:0;
+    background-color: lightpink;
+    color: #fff;
+    font-size:10px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    padding:5px 15px;
+}
