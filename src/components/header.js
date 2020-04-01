@@ -2,6 +2,10 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 
+const NavLink = props => (
+  <Link to={props.to}>{props.children}</Link>
+)
+
 const Header = ({ siteTitle }) => (
   <header
     style={{
@@ -28,6 +32,11 @@ const Header = ({ siteTitle }) => (
         </Link>
       </h1>
     </div>
+    <nav className="main-nav">
+    <NavLink to="/">Home page</NavLink>
+      <NavLink to="/page-2/">Second page</NavLink>
+      <NavLink to="/page-3/">Third page</NavLink>
+    </nav>
   </header>
 )
 

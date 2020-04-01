@@ -13,7 +13,7 @@ const ThirdPage = () => (
     <p>Welcome to page 3</p>
     <img src="https://source.unsplash.com/random/800x400" alt="" />
     <br />
-    <Link to="/">Go back to the homepage</Link>
+    <Link to="/">Go back to the homepage!</Link>
   </Layout>
 )
 

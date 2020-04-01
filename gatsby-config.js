@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Gatsby test site no1`,
+    description: `My Gatsby experimental place. Let/'s see where it takes us...`,
+    author: `@palamidas with the help of @gatsbyjs`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -27,6 +27,13 @@ module.exports = {
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
+    `gatsby-plugin-postcss`,
+    // {
+    //   resolve: `gatsby-plugin-postcss`,
+    //   options: {
+    //     postCssPlugins: [require(`postcss-preset-env`)({ stage: 2 })],
+    //   },
+    // },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
