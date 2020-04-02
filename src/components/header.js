@@ -36,6 +36,8 @@ const Header = ({ siteTitle }) => (
     <NavLink to="/">Home page</NavLink>
       <NavLink to="/page-2/">Second page</NavLink>
       <NavLink to="/page-3/">Third page</NavLink>
+      <NavLink to="/fileovi/">Fileovi</NavLink>
+      <NavLink to="/rest/">Rest</NavLink>
     </nav>
   </header>
 )
