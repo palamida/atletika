@@ -1,4 +1,5 @@
 import React from "react"
+import { graphql } from 'gatsby'
 // import JSONData from "http://www.mala-barka.eu/hr/markacijerest.json"
 // import JSONData from "../markacijerest.json"
 
